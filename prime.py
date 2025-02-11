@@ -9,7 +9,7 @@ import argparse
 
 def find_prime(num1, num2):
     if not num2 > num1:
-        print('The second number must be larger than the first!')
+        print("The second number must be larger than the first!")
     elif num1 == 1:
         print("The first number must be larger than 1!")
     else:
